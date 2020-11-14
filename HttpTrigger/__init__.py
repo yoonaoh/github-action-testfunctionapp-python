@@ -9,6 +9,6 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info(f'Flask is loaded with app name {app.name}')
 
     return func.HttpResponse(
-        f"Hello World! A",
+        f"Hello Functions World!",
         status_code=200
     )
