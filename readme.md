@@ -1,4 +1,10 @@
+### Intention
+
+1. Check if functions project can be deployed successfully
+2. Check if third party library `flask` can be resolved correctly
+
 ### Usage
 
-After the function app gets deployed, make a GET http request to `/api/HttpTrigger`,
-should get a 200 status code with a hello world message.
+1. Deploy the function app using deployment center
+2. Make a GET http request to `/api/HttpTrigger`
+3. Should get a 200 status code with `Hello Functions World!` body
